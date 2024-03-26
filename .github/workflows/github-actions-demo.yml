@@ -38,4 +38,4 @@ jobs:
           echo "This branch is ${{ github.ref }} ."
 
       - name: list files in repo
-        run: echo "The repo is ${{ github.repo }}"
+        run: echo "The repo is ${{ github.repository }}"
