@@ -35,7 +35,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "This job was triggered by: ${{ github.event_name }}"
-          echo "This branch is ${{ github.ref }}.
+          echo "This branch is ${{ github.ref }} ."
 
       - name: list files in repo
         run: echo "The repo is ${{ github.repo }}"
